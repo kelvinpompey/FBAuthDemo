@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C0F8D9142FF5AB0008B378 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C0F8D8142FF5AB0008B378 /* Cocoa.framework */; };
+		B6C0F8E3142FF5AB0008B378 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8E1142FF5AB0008B378 /* InfoPlist.strings */; };
+		B6C0F8E5142FF5AB0008B378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0F8E4142FF5AB0008B378 /* main.m */; };
+		B6C0F8E9142FF5AB0008B378 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8E7142FF5AB0008B378 /* Credits.rtf */; };
+		B6C0F8EC142FF5AB0008B378 /* FBAuthDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */; };
+		B6C0F8EF142FF5AC0008B378 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8ED142FF5AC0008B378 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6C0F8D4142FF5AB0008B378 /* FBAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C0F8D8142FF5AB0008B378 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B6C0F8DB142FF5AB0008B378 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B6C0F8DC142FF5AB0008B378 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6C0F8DD142FF5AB0008B378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6C0F8E0142FF5AB0008B378 /* FBAuthDemo-Info.plist */ = {isa = PBXFileReference; path = "FBAuthDemo-Info.plist"; sourceTree = "<group>"; };
+		B6C0F8E2142FF5AB0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6C0F8E4142FF5AB0008B378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6C0F8E6142FF5AB0008B378 /* FBAuthDemo-Prefix.pch */ = {isa = PBXFileReference; path = "FBAuthDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B6C0F8E8142FF5AB0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B6C0F8EA142FF5AB0008B378 /* FBAuthDemoAppDelegate.h */ = {isa = PBXFileReference; path = FBAuthDemoAppDelegate.h; sourceTree = "<group>"; };
+		B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAuthDemoAppDelegate.m; sourceTree = "<group>"; };
+		B6C0F8EE142FF5AC0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C0F8D1142FF5AB0008B378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C0F8D9142FF5AB0008B378 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C0F8C9142FF5AA0008B378 = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8DE142FF5AB0008B378 /* FBAuthDemo */,
+				B6C0F8D7142FF5AB0008B378 /* Frameworks */,
+				B6C0F8D5142FF5AB0008B378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C0F8D5142FF5AB0008B378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8D4142FF5AB0008B378 /* FBAuthDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C0F8D7142FF5AB0008B378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8D8142FF5AB0008B378 /* Cocoa.framework */,
+				B6C0F8DA142FF5AB0008B378 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C0F8DA142FF5AB0008B378 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8DB142FF5AB0008B378 /* AppKit.framework */,
+				B6C0F8DC142FF5AB0008B378 /* CoreData.framework */,
+				B6C0F8DD142FF5AB0008B378 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B6C0F8DE142FF5AB0008B378 /* FBAuthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8EA142FF5AB0008B378 /* FBAuthDemoAppDelegate.h */,
+				B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */,
+				B6C0F8ED142FF5AC0008B378 /* MainMenu.xib */,
+				B6C0F8DF142FF5AB0008B378 /* Supporting Files */,
+			);
+			path = FBAuthDemo;
+			sourceTree = "<group>";
+		};
+		B6C0F8DF142FF5AB0008B378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0F8E0142FF5AB0008B378 /* FBAuthDemo-Info.plist */,
+				B6C0F8E1142FF5AB0008B378 /* InfoPlist.strings */,
+				B6C0F8E4142FF5AB0008B378 /* main.m */,
+				B6C0F8E6142FF5AB0008B378 /* FBAuthDemo-Prefix.pch */,
+				B6C0F8E7142FF5AB0008B378 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C0F8D3142FF5AB0008B378 /* FBAuthDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C0F8F2142FF5AC0008B378 /* Build configuration list for PBXNativeTarget "FBAuthDemo" */;
+			buildPhases = (
+				B6C0F8D0142FF5AB0008B378 /* Sources */,
+				B6C0F8D1142FF5AB0008B378 /* Frameworks */,
+				B6C0F8D2142FF5AB0008B378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAuthDemo;
+			productName = FBAuthDemo;
+			productReference = B6C0F8D4142FF5AB0008B378 /* FBAuthDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C0F8CB142FF5AA0008B378 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B6C0F8CE142FF5AA0008B378 /* Build configuration list for PBXProject "FBAuthDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6C0F8C9142FF5AA0008B378;
+			productRefGroup = B6C0F8D5142FF5AB0008B378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C0F8D3142FF5AB0008B378 /* FBAuthDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C0F8D2142FF5AB0008B378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C0F8E3142FF5AB0008B378 /* InfoPlist.strings in Resources */,
+				B6C0F8E9142FF5AB0008B378 /* Credits.rtf in Resources */,
+				B6C0F8EF142FF5AC0008B378 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C0F8D0142FF5AB0008B378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C0F8E5142FF5AB0008B378 /* main.m in Sources */,
+				B6C0F8EC142FF5AB0008B378 /* FBAuthDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6C0F8E1142FF5AB0008B378 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C0F8E2142FF5AB0008B378 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6C0F8E7142FF5AB0008B378 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C0F8E8142FF5AB0008B378 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B6C0F8ED142FF5AC0008B378 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C0F8EE142FF5AC0008B378 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C0F8F0142FF5AC0008B378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6C0F8F1142FF5AC0008B378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6C0F8F3142FF5AC0008B378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBAuthDemo/FBAuthDemo-Prefix.pch";
+				INFOPLIST_FILE = "FBAuthDemo/FBAuthDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6C0F8F4142FF5AC0008B378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBAuthDemo/FBAuthDemo-Prefix.pch";
+				INFOPLIST_FILE = "FBAuthDemo/FBAuthDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C0F8CE142FF5AA0008B378 /* Build configuration list for PBXProject "FBAuthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0F8F0142FF5AC0008B378 /* Debug */,
+				B6C0F8F1142FF5AC0008B378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C0F8F2142FF5AC0008B378 /* Build configuration list for PBXNativeTarget "FBAuthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C0F8F3142FF5AC0008B378 /* Debug */,
+				B6C0F8F4142FF5AC0008B378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C0F8CB142FF5AA0008B378 /* Project object */;
+}
