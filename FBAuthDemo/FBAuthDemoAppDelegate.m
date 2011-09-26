@@ -7,6 +7,7 @@
 //
 
 #import "FBAuthDemoAppDelegate.h"
+#import "FBLoginController.h"
 
 @implementation FBAuthDemoAppDelegate
 
@@ -15,6 +16,16 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    NSArray *permissions = [NSArray arrayWithObjects:@"offline_access", nil];    
+    FBLoginController *loginController = [[FBLoginController alloc] initWithAppId:@"294554283892164" andPermissions:permissions];
+    [loginController setLoginDelegate:self];
+    
+      
+    [loginController login];
+}
+
+-(void) didLoginToFacebookWithAccessToken: (NSString *) accessToken {
+    NSLog(@"accessToken is %@", accessToken); 
 }
 
 @end

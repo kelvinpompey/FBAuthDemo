@@ -13,6 +13,9 @@
 		B6C0F8E9142FF5AB0008B378 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8E7142FF5AB0008B378 /* Credits.rtf */; };
 		B6C0F8EC142FF5AB0008B378 /* FBAuthDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */; };
 		B6C0F8EF142FF5AC0008B378 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8ED142FF5AC0008B378 /* MainMenu.xib */; };
+		B6C0F8F6142FF5BE0008B378 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C0F8F5142FF5BE0008B378 /* WebKit.framework */; };
+		B6C0F8F9142FF5E00008B378 /* FBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0F8F8142FF5E00008B378 /* FBLoginController.m */; };
+		B6C0F8FB142FF5FF0008B378 /* FBLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0F8FA142FF5FF0008B378 /* FBLoginController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,18 @@
 		B6C0F8DB142FF5AB0008B378 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B6C0F8DC142FF5AB0008B378 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B6C0F8DD142FF5AB0008B378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B6C0F8E0142FF5AB0008B378 /* FBAuthDemo-Info.plist */ = {isa = PBXFileReference; path = "FBAuthDemo-Info.plist"; sourceTree = "<group>"; };
+		B6C0F8E0142FF5AB0008B378 /* FBAuthDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBAuthDemo-Info.plist"; sourceTree = "<group>"; };
 		B6C0F8E2142FF5AB0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6C0F8E4142FF5AB0008B378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6C0F8E6142FF5AB0008B378 /* FBAuthDemo-Prefix.pch */ = {isa = PBXFileReference; path = "FBAuthDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B6C0F8E6142FF5AB0008B378 /* FBAuthDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBAuthDemo-Prefix.pch"; sourceTree = "<group>"; };
 		B6C0F8E8142FF5AB0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B6C0F8EA142FF5AB0008B378 /* FBAuthDemoAppDelegate.h */ = {isa = PBXFileReference; path = FBAuthDemoAppDelegate.h; sourceTree = "<group>"; };
+		B6C0F8EA142FF5AB0008B378 /* FBAuthDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAuthDemoAppDelegate.h; sourceTree = "<group>"; };
 		B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAuthDemoAppDelegate.m; sourceTree = "<group>"; };
 		B6C0F8EE142FF5AC0008B378 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B6C0F8F5142FF5BE0008B378 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B6C0F8F7142FF5E00008B378 /* FBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginController.h; sourceTree = "<group>"; };
+		B6C0F8F8142FF5E00008B378 /* FBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginController.m; sourceTree = "<group>"; };
+		B6C0F8FA142FF5FF0008B378 /* FBLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FBLoginController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C0F8F6142FF5BE0008B378 /* WebKit.framework in Frameworks */,
 				B6C0F8D9142FF5AB0008B378 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +54,7 @@
 		B6C0F8C9142FF5AA0008B378 = {
 			isa = PBXGroup;
 			children = (
+				B6C0F8F5142FF5BE0008B378 /* WebKit.framework */,
 				B6C0F8DE142FF5AB0008B378 /* FBAuthDemo */,
 				B6C0F8D7142FF5AB0008B378 /* Frameworks */,
 				B6C0F8D5142FF5AB0008B378 /* Products */,
@@ -86,6 +95,8 @@
 				B6C0F8EB142FF5AB0008B378 /* FBAuthDemoAppDelegate.m */,
 				B6C0F8ED142FF5AC0008B378 /* MainMenu.xib */,
 				B6C0F8DF142FF5AB0008B378 /* Supporting Files */,
+				B6C0F8F7142FF5E00008B378 /* FBLoginController.h */,
+				B6C0F8F8142FF5E00008B378 /* FBLoginController.m */,
 			);
 			path = FBAuthDemo;
 			sourceTree = "<group>";
@@ -98,6 +109,7 @@
 				B6C0F8E4142FF5AB0008B378 /* main.m */,
 				B6C0F8E6142FF5AB0008B378 /* FBAuthDemo-Prefix.pch */,
 				B6C0F8E7142FF5AB0008B378 /* Credits.rtf */,
+				B6C0F8FA142FF5FF0008B378 /* FBLoginController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +164,7 @@
 				B6C0F8E3142FF5AB0008B378 /* InfoPlist.strings in Resources */,
 				B6C0F8E9142FF5AB0008B378 /* Credits.rtf in Resources */,
 				B6C0F8EF142FF5AC0008B378 /* MainMenu.xib in Resources */,
+				B6C0F8FB142FF5FF0008B378 /* FBLoginController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +177,7 @@
 			files = (
 				B6C0F8E5142FF5AB0008B378 /* main.m in Sources */,
 				B6C0F8EC142FF5AB0008B378 /* FBAuthDemoAppDelegate.m in Sources */,
+				B6C0F8F9142FF5E00008B378 /* FBLoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +259,7 @@
 		B6C0F8F3142FF5AC0008B378 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBAuthDemo/FBAuthDemo-Prefix.pch";
 				INFOPLIST_FILE = "FBAuthDemo/FBAuthDemo-Info.plist";
@@ -256,6 +271,7 @@
 		B6C0F8F4142FF5AC0008B378 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FBAuthDemo/FBAuthDemo-Prefix.pch";
 				INFOPLIST_FILE = "FBAuthDemo/FBAuthDemo-Info.plist";
