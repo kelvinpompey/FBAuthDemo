@@ -51,6 +51,7 @@
         self.accessToken = [[requestString componentsSeparatedByString:@"#access_token="] lastObject];
         if (loginDelegate && [loginDelegate respondsToSelector:@selector(didLoginToFacebookWithAccessToken:)]) {
             [loginDelegate didLoginToFacebookWithAccessToken: self.accessToken]; 
+            [self.window close]; 
         }
     }
 }

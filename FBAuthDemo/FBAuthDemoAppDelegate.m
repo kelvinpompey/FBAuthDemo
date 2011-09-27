@@ -25,7 +25,7 @@
 }
 
 -(void) didLoginToFacebookWithAccessToken: (NSString *) accessToken {
-    NSLog(@"accessToken is %@", accessToken); 
+    NSLog(@"did login with accessToken %@", accessToken); 
 }
 
 @end
